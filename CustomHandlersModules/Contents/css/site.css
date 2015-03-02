@@ -1,0 +1,379 @@
+﻿html {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: normal .80em 'trebuchet ms', arial, sans-serif;
+    background: #F0EFE2 url(\\Contents\\images\\background.png) repeat;
+    color: #777;
+}
+
+.header {
+    background: #1D1D1D url(\\Contents\\images\\header.png) repeat;
+    height: 140px;
+    padding: 0px;
+    margin-left: 21%;
+    margin-right: 21%;
+    border-top-right-radius: 42px;
+    border-top-left-radius: 42px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+    .header img {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        top: 5%;
+        left: 47%;
+    }
+
+    .header p {
+        position: relative;
+        text-align: center;
+        font-size: 24px;
+    }
+
+
+    .header .logo {
+        position: relative;
+        background: url("\\Contents\\images\\logo.gif") no-repeat;
+        width: 50px;
+        height: 80px;
+        display: block;
+    }
+
+    .header .nav_bar {
+        height: 40px;
+        padding: 0;
+        background: #1293EE;
+        position: relative;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        top: 90px;
+    }
+
+.nav_bar ul {
+    display: inline-block;
+    position: relative;
+    width: 46px;
+    height: 40px;
+    cursor: pointer;
+    background: #3399cc;
+    font-size: 12px;
+}
+
+.page-content {
+    position: relative;
+    opacity: .66;
+    background: white;
+    padding: 20px;
+    margin-left: 21%;
+    margin-right: 21%;
+    border-top-right-radius: 22px;
+    border-top-left-radius: 22px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    height: 320px;
+    margin-top: 24px;
+}
+
+/* Button Styles */
+
+.button {
+    /*Basic Button Styles*/
+    display: block;
+    height: 40px;
+    width: 50px;
+    background: #3374cc;
+    /*Text Styles*/
+    color: white;
+    text-align: center;
+    font: bold 0.8em/30px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    /*Fancy CSS3 Styles*/
+    background: -webkit-linear-gradient(top, #34696f, #2f5f63);
+    background: -moz-linear-gradient(top, #34696f, #2f5f63);
+    background: -o-linear-gradient(top, #34696f, #2f5f63);
+    background: -ms-linear-gradient(top, #34696f, #2f5f63);
+    background: linear-gradient(top, #34696f, #2f5f63);
+    text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+}
+
+/*Link Styles*/
+a.button {
+    text-decoration: none;
+}
+
+    /*Step 5: Hover Styles*/
+    a.button:hover {
+        background: -webkit-linear-gradient(top, #3d7a80, #2f5f63);
+        background: -moz-linear-gradient(top, #3d7a80, #2f5f63);
+        background: -o-linear-gradient(top, #3d7a80, #2f5f63);
+        background: -ms-linear-gradient(top, #3d7a80, #2f5f63);
+        background: linear-gradient(top, #3d7a80, #2f5f63);
+    }
+
+/* @end */
+
+#action-left {
+    display: none;
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#action-right {
+    display: none;
+    position: relative;
+    margin-right: 10px;
+    float: right;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#action-right-log {
+    display: none;
+    position: relative;
+    margin-right: 10px;
+    float: right;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#action-right:hover {
+    background: #2288bb;
+}
+
+#action-left:hover {
+    background: #2288bb;
+}
+
+#footer {
+    font: normal 100% 'lucida sans unicode', arial, sans-serif;
+    height: 33px;
+    padding: 24px 0 5px 0;
+    text-align: center;
+    background: #1293EE;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-left: 21%;
+    margin-right: 21%;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 42px;
+    border-bottom-left-radius: 42px;
+    height: 40px;
+    margin-top: 16px;
+}
+
+.box {
+    height: 167px;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+    background: #3399cc;
+    color: WHITE;
+    font-weight: BOLD;
+    padding-right: 20px;
+    margin-top: 5px;
+    border-radius: 15px;
+    border-color: white;
+    border-width: 15px;
+}
+
+    .box p {
+        margin-top: 5px;
+        border-radius: 5px;
+        border-color: white;
+        border-width: 5px;
+    }
+
+.loginbox {
+    width: 156px;
+    height: 132px;
+    margin-right: 6px;
+    position: absolute;
+    right: 2px;
+    z-index: 29;
+    margin: 0 auto;
+    margin-top: 8px;
+    margin-bottom: 2%;
+    background-color: rgba(134, 182, 247, 0.0);
+    display: none;
+}
+
+form {
+    width: 156px;
+    height: 132px;
+    background: #f0f0f0;
+    margin: 0 auto;
+    margin-top: 8px;
+    margin-bottom: 2%;
+    background-color: rgba(246, 246, 246, 0.91);
+    border-radius: 22px;
+}
+
+input[type="email"], input[type="password"] {
+    width: 60%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 4%;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 95%;
+    color: #555;
+}
+
+input[type="submit"] {
+    width: 60%;
+    background: #3399cc;
+    border: 0;
+    padding: 4%;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 100%;
+    color: #fff;
+    cursor: pointer;
+    transition: background .3s;
+    -webkit-transition: background .3s;
+}
+
+    input[type="submit"]:hover {
+        background: #2288bb;
+    }
+
+#jsonText {
+    height: 250px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-size: 12px;
+}
+
+.content {
+    position: relative;
+    margin: 0 auto;
+    max-height: 310px;
+}
+
+ul.tabs {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+    ul.tabs li {
+        background: none;
+        color: #222;
+        display: inline-block;
+        padding: 10px 15px;
+        cursor: pointer;
+    }
+
+        ul.tabs li.current {
+            background: #ededed;
+            color: #222;
+        }
+
+.tab-content {
+    display: none;
+    background: #ededed;
+    padding: 15px;
+    height: 260px;
+}
+
+    .tab-content.current {
+        display: inherit;
+        height: 260px;
+    }
+
+#json-container {
+    height: 200px;
+}
+
+#nav_bar ul#action-right-log li {
+    display: inline-block;
+}
+
+.log_out {
+    display: inline-block;
+}
+
+.Container {
+    padding: 0;
+    margin: 0;
+    margin-left: 18px;
+    position: relative;
+    max-height: 100px;
+}
+
+    .Container li {
+        list-style-type: none;
+    }
+
+/* indent for all tree children excepts root */
+.Node {
+    margin-left: 18px;
+    zoom: 1;
+}
+
+.IsRoot {
+    margin-left: 0;
+}
+
+
+/* left vertical line (grid) for all nodes */
+.IsLast {
+    padding: 4px;
+}
+
+.ExpandOpen .Expand {
+    background-image: url("\\Contents\\images\\expand_plus.png");
+    background-size: 21px;
+}
+
+/* closed is higher priority than open */
+.ExpandClosed .Expand {
+    background-image: url(\\Contents\\images\\expand_minus.png);
+    background-size: 18px;
+}
+
+.Content {
+    min-height: 18px;
+    margin-left: 18px;
+    position: relative;
+}
+
+
+.Expand {
+    width: 18px;
+    height: 18px;
+    float: left;
+}
+
+.ExpandOpen .Container {
+    display: block;
+}
+
+.ExpandClosed .Container {
+    display: none;
+}
+
+.ExpandOpen .Expand, .ExpandClosed .Expand {
+    cursor: pointer;
+}
+
+.ExpandLeaf .Expand {
+    cursor: auto;
+}

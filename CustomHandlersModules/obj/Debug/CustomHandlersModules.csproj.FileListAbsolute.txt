@@ -1,0 +1,5 @@
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\Epam-lab\M1\CustomHandlersModules\bin\CustomHandlersModules.dll
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\Epam-lab\M1\CustomHandlersModules\bin\CustomHandlersModules.pdb
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\Epam-lab\M1\CustomHandlersModules\obj\Debug\CustomHandlersModules.csprojResolveAssemblyReference.cache
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\Epam-lab\M1\CustomHandlersModules\obj\Debug\CustomHandlersModules.dll
+C:\Users\RoYaLiSt\Documents\Visual Studio 2012\Projects\Epam-lab\M1\CustomHandlersModules\obj\Debug\CustomHandlersModules.pdb
